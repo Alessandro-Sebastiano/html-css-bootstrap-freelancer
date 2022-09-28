@@ -1,0 +1,30 @@
+:root {
+    /* Color styles */
+    --dark: rgba(51, 51, 51, 1);
+    --light: rgba(255, 255, 255, 1);
+    --green: rgba(26, 188, 156, 1);
+    --bluewood: rgba(44, 62, 80, 1);
+    --fiord: rgba(58, 84, 109, 1);
+
+}
+
+
+
+.my-bg-bluewood {
+    background-color: var(--bluewood);
+}
+
+
+.my-bg-fiord {
+    background-color: var(--fiord);
+}
+
+
+.my-bg-green {
+    background-color: var(--green);
+}
+
+
+.main {
+    margin-top: 56px;
+}
