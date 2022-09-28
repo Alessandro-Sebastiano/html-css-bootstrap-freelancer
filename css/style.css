@@ -50,3 +50,41 @@
     height: 3px;
     background-color: var(--dark);
 }
+
+
+
+.overlay {
+    width: calc(100% - 24px);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 12px;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+
+.overlay::after {
+    content: "+";
+    color: var(--light);
+    font-size: 6rem;
+}
+
+
+
+.overlay:hover {
+    opacity: 1;
+}
+
+
+
+
+.circle {
+    border: 1px solid var(--light);
+    border-radius: 50%;
+    display: block;
+    width: 40px;
+    height: 40px;
+}
