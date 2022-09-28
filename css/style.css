@@ -28,3 +28,25 @@
 .main {
     margin-top: 56px;
 }
+
+
+.star {}
+
+
+.star::after,
+.star::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--light);
+}
+
+.star-b::after,
+.star-b::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--dark);
+}
