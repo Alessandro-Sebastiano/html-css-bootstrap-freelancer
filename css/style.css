@@ -81,6 +81,16 @@
 
 
 
+.input-style {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--dark);
+    width: 100%;
+}
+
+
+
+
 .circle {
     border: 1px solid var(--light);
     border-radius: 50%;
